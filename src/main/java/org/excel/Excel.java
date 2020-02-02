@@ -33,6 +33,7 @@ public class Excel {
 		SimpleDateFormat st1 = new SimpleDateFormat("DD-MMM-YYYY");
 		String date = st1.format(dt);
 		System.out.println(date);
+		System.out.println();
 		}
 		else {
 		double nm = cell.getNumericCellValue();
